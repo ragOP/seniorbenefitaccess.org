@@ -1,18 +1,17 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Redirect, Route, Switch } from "wouter";
+import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import BasicHome from "./pages/BasicHome";
 import Home from "./pages/Home";
 
 function Router() {
   return (
     <Switch>
       <Route path="/rmyt1" component={Home} />
-      <Route path="/">
-        <Redirect to="/rmyt1" />
-      </Route>
+      <Route path="/" component={BasicHome} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
