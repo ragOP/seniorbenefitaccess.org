@@ -60,10 +60,12 @@ export default function Home() {
           <div className="text-center mb-8 md:mb-12">
             <Button 
               onClick={handleContinue}
-              className="w-full max-w-[560px] h-auto min-h-[68px] px-4 py-4 bg-[#0066cc] hover:bg-[#0052b3] text-white font-black text-base sm:text-lg md:text-[24px] rounded-xl shadow-xl hover:shadow-2xl transition-all duration-200 transform hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-2 cursor-pointer uppercase tracking-tight whitespace-normal leading-tight text-center"
+              className="btn-shimmer w-full max-w-[560px] h-auto min-h-[68px] px-4 py-4 bg-[#0066cc] hover:bg-[#0052b3] text-white font-black text-base sm:text-lg md:text-[24px] rounded-xl shadow-xl hover:shadow-2xl transition-all duration-200 transform hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-2 cursor-pointer uppercase tracking-tight whitespace-normal leading-tight text-center"
             >
-              Continue To Home Equity Check
-              <ArrowRight className="w-5 h-5 md:w-7 md:h-7 stroke-[3.5px] shrink-0" />
+              <span className="relative z-10 flex items-center justify-center gap-2">
+                Continue To Home Equity Check
+                <ArrowRight className="w-5 h-5 md:w-7 md:h-7 stroke-[3.5px] shrink-0" />
+              </span>
             </Button>
             <p className="text-xs md:text-sm text-gray-500 mt-3 font-semibold flex items-center justify-center gap-1">
               <TrendingUp className="w-4 h-4 text-green-600" /> Free, safe, and takes less than 60 seconds to check.
@@ -196,10 +198,12 @@ export default function Home() {
           <div className="text-center">
             <Button 
               onClick={handleContinue}
-              className="w-full max-w-[560px] h-auto min-h-[68px] px-4 py-4 bg-[#0066cc] hover:bg-[#0052b3] text-white font-black text-base sm:text-lg md:text-[24px] rounded-xl shadow-xl hover:shadow-2xl transition-all duration-200 transform hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-2 cursor-pointer uppercase tracking-tight whitespace-normal leading-tight text-center"
+              className="btn-shimmer w-full max-w-[560px] h-auto min-h-[68px] px-4 py-4 bg-[#0066cc] hover:bg-[#0052b3] text-white font-black text-base sm:text-lg md:text-[24px] rounded-xl shadow-xl hover:shadow-2xl transition-all duration-200 transform hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-2 cursor-pointer uppercase tracking-tight whitespace-normal leading-tight text-center"
             >
-              Continue To Home Equity Check
-              <ArrowRight className="w-5 h-5 md:w-7 md:h-7 stroke-[3.5px] shrink-0" />
+              <span className="relative z-10 flex items-center justify-center gap-2">
+                Continue To Home Equity Check
+                <ArrowRight className="w-5 h-5 md:w-7 md:h-7 stroke-[3.5px] shrink-0" />
+              </span>
             </Button>
             <p className="text-xs text-[#52616f] mt-3 font-semibold">
               Clicking above will open the Official Home Equity Check.
