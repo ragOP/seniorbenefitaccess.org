@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Check, Shield, Home as HomeIcon, DollarSign, ArrowRight, AlertCircle, TrendingUp } from "lucide-react";
 
 export default function Home() {
-  const targetUrl = "https://trk.connectbenefit.online/click";
+  const targetUrl = "https://trk.americanbenefithelp.com/click";
 
   const handleContinue = () => {
     window.location.href = targetUrl;
